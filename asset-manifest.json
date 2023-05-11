@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.56147cab.css",
-    "main.js": "/static/js/main.b7fde1d6.js",
+    "main.js": "/static/js/main.141d1181.js",
     "static/media/housePricePrediction.webp": "/static/media/housePricePrediction.b31e0646f17411ac5222.webp",
     "static/media/iocl.pdf": "/static/media/iocl.921c77d08a26b055bd8f.pdf",
     "static/media/offer_letter_bws.pdf": "/static/media/offer_letter_bws.3067af337a4cc7be5f39.pdf",
@@ -9,6 +9,7 @@
     "static/media/bye.svg": "/static/media/bye.75f145a84381fb98e914a1457e1c5ad6.svg",
     "static/media/nodmcu.png": "/static/media/nodmcu.5dd9d89f983ddfadfea2.png",
     "static/media/image.jpg": "/static/media/image.75cf51188e8fa3000a39.jpg",
+    "static/media/atulyam.png": "/static/media/atulyam.c74a780a06a041185a0d.png",
     "static/media/bakeWithLove.jpg": "/static/media/bakeWithLove.a75b6c2672fae219438c.jpg",
     "static/media/iocl.jpeg": "/static/media/iocl.414dff8fd3190aa9fb7b.jpeg",
     "static/media/internships.jpg": "/static/media/internships.97ef223d83b255e56901.jpg",
@@ -45,10 +46,10 @@
     "static/media/link.svg": "/static/media/link.6bd969025c01e23f86c55e87cd8f8ceb.svg",
     "static/media/facebook.svg": "/static/media/facebook.64835acfc86f43b23c0c99e8b5b8ff59.svg",
     "main.56147cab.css.map": "/static/css/main.56147cab.css.map",
-    "main.b7fde1d6.js.map": "/static/js/main.b7fde1d6.js.map"
+    "main.141d1181.js.map": "/static/js/main.141d1181.js.map"
   },
   "entrypoints": [
     "static/css/main.56147cab.css",
-    "static/js/main.b7fde1d6.js"
+    "static/js/main.141d1181.js"
   ]
 }
