@@ -32,6 +32,7 @@ const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLin
 export const Experience = () => {
 
     const Experiences =[
+        {companyName:'Geeksforgeeks',InternshipPosition:'Content Writer',desc:"Writing technical articles/blogs for tech geeks",date:'March 2023 - President',companySrc:'https://geeksforgeeks.org/',pdfLink:''},
         {companyName:'Newtons School Coding Club NITAP',InternshipPosition:'President',desc:"Managing 150 club members and organized coding contests and workshops to improve the coding environment",date:'Aug 2022 - President',companySrc:'https://iocl.com/',pdfLink:NewtonsSchools},
         {companyName:'Technodaya NIT Arunachal Pradesh',InternshipPosition:'Editor',desc:"Developed the Newletter Magazine Website for NIT Arunachal Pradesh",date:'Dec 2022 - Present',companySrc:'https://iocl.com/',pdfLink:'#'},
         {companyName:'Indian Oil Corp. Limited',InternshipPosition:'SDE Internship',desc:"Completed the IOCL Vehicle Tracking and Management and Created the light weight web app using react.Js",date:'Dec 2022 - Jan 2023',companySrc:'https://iocl.com/',pdfLink:iocl},
