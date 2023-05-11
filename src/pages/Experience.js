@@ -221,6 +221,8 @@ export const Experience = () => {
                             </div>  
                     </a>
                 <img src="https://leetcode.com/static/images/badges/2022/lg/2022-annual-100.png" alt="100 Days Badge 2022" className="h-full w-full cursor-pointer object-contain" width={130}></img>
+                <img src="https://leetcode.com/static/images/badges/dcc-2023-3.png" alt="March Badge" className="h-full w-full cursor-pointer object-contain" width={130}></img>
+
                 </div>
             </div>    
         </div>

@@ -6,19 +6,14 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import LinkIcon from '@mui/icons-material/Link';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import BakewithLove from '../images/bakeWithLove.jpg'
-import Technodaya from '../images/technodaya.jpg'
-import IoclTracker from '../images/iocl.jpeg'
 import Airavat from '../images/airavat.jpg'
-import SmartNaka from '../images/apsn.jpeg'
+import Atulyam from '../images/atulyam.png'
+import BakewithLove from '../images/bakeWithLove.jpg'
 import HousePricePrediction from '../images/housePricePrediction.webp'
-// import Calculator from '../images/calculator.webp'
-// import DesktopAssistent from '../images/assistent.png'
-// import Encourager from '../images/Discord-bot.png'
-// import ToDoList from '../images/todolist.webp'
-// import TypingGame from '../images/typingmbl.png'
-// import BankManagement from '../images/bank.png'
-// import RockPaperScissor from '../images/rock_paper_ssr.webp'
+import IoclTracker from '../images/iocl.jpeg'
+import SmartNaka from '../images/apsn.jpeg'
+import Technodaya from '../images/technodaya.jpg'
+ 
 
 
 const ExpandMore = styled((props) => {
@@ -101,6 +96,7 @@ const MyCardComponent = ({ projectTitle, imgsrc,period, shortDesc, codeSrc, demo
 
 export default function CardComponent() {
   const projectDetails = [
+    { projectTitle: 'Atulyam 23', imgsrc: Atulyam,period:'April 2023 - May 2023', shortDesc: 'Cultural fest Website for NIT AP ', codeSrc: 'http://github.com/tripathics/atulyam-2023', demoSrc: 'https://atulyam23.com', para1: 'Contributed the cultural fest Website for NIT AP', para2: ' ReactJs is used in the frontend and Firebase is used at the backend for registered users information.' },
     { projectTitle: 'IOCL Tracker', imgsrc: IoclTracker,period:'Dec 2022 - Jan 2023', shortDesc: 'MERN application:  Vehicle Tracking and Management System ', codeSrc: 'https://github.com/tripathics/iocl-tracker', demoSrc: 'https://github.com/tripathics/iocl-tracker', para1: 'ReactJs is used in the frontend and we styled the whole frontend by the help of Material UI (MUi)', para2: 'ExpressJs, NodeJs and MongoDB  with JWT authentication  in the backend.' },
     { projectTitle: 'Ethos: Smart-Naka', imgsrc: SmartNaka,period:'Dec 2022 - Jan 2023',  shortDesc: 'A react Native application which helps Assam Police to catch thiefts at Naka', codeSrc: 'https://github.com/Pursottam6003/smart-naka', demoSrc: '#', para1: 'We developed this application during the Ethos The coding contest at IIT Guwahati', para2: 'React Native used with the help of React Native paper and we trained our model using YOLO V3' },
     { projectTitle: 'House Price Prediction', imgsrc: HousePricePrediction, period:'Dec 2022',  shortDesc: 'Trained the regression model for house price prediction', codeSrc: 'https://colab.research.google.com/drive/1nnoUPiE8rUWB4CWaVuOAJwJdydCYkA9u', demoSrc: 'https://colab.research.google.com/drive/1nnoUPiE8rUWB4CWaVuOAJwJdydCYkA9u', para1: 'A House Price pediction model is trained with the help of house dataset ', para2: 'Scikit learn is used for training the model' },

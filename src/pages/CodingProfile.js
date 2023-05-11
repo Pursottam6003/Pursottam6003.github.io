@@ -26,8 +26,8 @@ const Coding =({companyName,logosrc,userName,desc})=>{
 const CodingProfile = () => {
 
     const MyCoding = [
-        {companyName:"LeetCode", logosrc:leetcode,userName:"https://www.leetcode.com/rahulsah6003/",desc:"280+ Problems"},
-        {companyName:"GeeksForGeeks", logosrc:gfg,userName:"https://auth.geeksforgeeks.org/user/rahulsah6003",desc:"300+ Problems 6th in College"},
+        {companyName:"LeetCode", logosrc:leetcode,userName:"https://www.leetcode.com/rahulsah6003/",desc:"380+ Problems"},
+        {companyName:"GeeksForGeeks", logosrc:gfg,userName:"https://auth.geeksforgeeks.org/user/rahulsah6003",desc:"400+ Problems 4th in College"},
         {companyName:"HackerRank", logosrc:Hackerrank,userName:"",desc:"300+ Problems"},
         {companyName:"CodeChef", logosrc:codechef,userName:"https://www.codechef.com/users/rahulsah6003",desc:"150+ Problems"},
         {companyName:"CodeForces", logosrc:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png",userName:"https://codeforces.com/profile/pursottam",desc:"80+ Problems"},
