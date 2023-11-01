@@ -1,11 +1,8 @@
 import React from 'react'
-import GCloud from '../images/googlecloud.webp'
 import iocl from '../offerLetters/iocl.pdf'
-import Ekarigari from '../offerLetters/offer_letter_ekarigari.pdf'
-import Bws from '../offerLetters/offer_letter_bws.pdf'
-import NewtonsSchools from '../offerLetters/offer_letter_newtonSchools.pdf'
 import Rebert from '../offerLetters/offer_letter_rebert.pdf'
-import Tathastu from '../offerLetters/offer_tathastu.pdf'
+import experienceIcon from '../images/experiences/experienceIcon.svg'
+ 
 
 const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLink})=>{
     return (
@@ -32,20 +29,16 @@ const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLin
 export const Experience = () => {
 
     const Experiences =[
-        {companyName:'Geeksforgeeks',InternshipPosition:'Content Writer',desc:"Writing technical articles/blogs for tech geeks",date:'March 2023 - President',companySrc:'https://geeksforgeeks.org/',pdfLink:''},
-        {companyName:'Newtons School Coding Club NITAP',InternshipPosition:'President',desc:"Managing 150 club members and organized coding contests and workshops to improve the coding environment",date:'Aug 2022 - President',companySrc:'https://iocl.com/',pdfLink:NewtonsSchools},
-        {companyName:'Technodaya NIT Arunachal Pradesh',InternshipPosition:'Editor',desc:"Developed the Newletter Magazine Website for NIT Arunachal Pradesh",date:'Dec 2022 - Present',companySrc:'https://iocl.com/',pdfLink:'#'},
+        {companyName:'Google Developers Students Club',InternshipPosition:'Open Source Lead',desc:"Helping and teaching student to dive into open source",date:'Aug 2023 - Present',companySrc:'https://developers.google.com/community/gdsc',pdfLink:''},
+        {companyName:'Girlscript Summer of Code',InternshipPosition:'Open Source Contributor',desc:"Attained the overall global rank of 532/ 15000+ contributors and expertise in industry-standard best practice",date:'May 2023 - Aug 2023',companySrc:'https://gssoc.girlscript.tech/',pdfLink:''},
         {companyName:'Indian Oil Corp. Limited',InternshipPosition:'SDE Internship',desc:"Completed the IOCL Vehicle Tracking and Management and Created the light weight web app using react.Js",date:'Dec 2022 - Jan 2023',companySrc:'https://iocl.com/',pdfLink:iocl},
-        {companyName:'Ekarigari Systems Pvt. Limited',InternshipPosition:'Embeded System (IOT) and ML Trainee',desc:"Currently learning IoT and embeded systems and thats helps in understanding core concepts of electronics",date:'July 2022 - Present',companySrc:'https://ekarigari.in/',pdfLink:Ekarigari},
-        {companyName:'Business Web Solutions Pvt. Limited',InternshipPosition:'Full Stack Web Development Internship',desc:"Become expert in HTML, CSS, and Javascript as well as in scripting languages Such as Python",date:'May 2022 -July 2022',companySrc:'https://www.businesswebsolutions.in/',pdfLink:Bws},
-        {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Working on the current project of the company ‘DoBuizz’ where my tasks was to first understand the PHP codes",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:Rebert},
-        {companyName:'Tathastu TwoWaits',InternshipPosition:'MERN Stack Trainee',desc:'Understood the core concepts of JavaScript and wrote a mini book for students who want to learn Js from scratch',date:'June 2022 - July 2022',companySrc:'http://tathastu.twowaits.in/',pdfLink:Tathastu},
+        {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Worked on the project of the company ‘DoBuizz’ ",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:Rebert},
     ]
   
     return (
     <>
     <div className="Experience" id="myexperience">
-            <img src="https://img.icons8.com/external-flat-geotatah/64/000000/external-development-customer-satisfaction-flat-flat-geotatah.png" alt="exprience" />
+            <img src={experienceIcon} alt="exprience" />
             <h2 className="HowerMe">My Experiences</h2>
 
             <div className="resume-box reveal">
@@ -56,95 +49,7 @@ export const Experience = () => {
                     }
                 </ul>
             </div>
-
-            <h3><a href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125"
-                target="_blank">Google Cloud</a></h3>
-            <div className="googlecld reveal"><img src={GCloud} alt="google cloud" id="gcloud" />
-                <p><a href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125"
-                    target="_blank">Completed 30 days of Google Cloud Challenge</a></p>
-            </div>
-
-            <div className="googlecloud reveal">
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1512645"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/W0dgzE99xnSKAISSMzB5oc26LS0%2Bovkh0%2B6SrIdp6BI%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1509278"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/i3kI5DADfu8XoQguEoj60FKhmKUmshuiSpVjQMNX9tU%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1508188"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/s2t82amH27Mnb3nUGyvX3PCjz2hPNAAAuy0GGcSUw0o%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1505328"
-                        aria-label="gclouds-bages" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/Iq6U5qCbrNP0GYjuu3ekilm6w80lPQby%2Be3g4FTAvYw%3D" />
-                    </a>
-                </div>
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1505109"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/nfpOK9orYE%2BYPBPDaK0OaqsYrl%2Bd8P65%2BuHEM30w6Lc%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1500144"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/07kUwYDVqqrkI1U8YT6HnUqEu2BPap32XKmsObf%2Fr%2FE%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1494961"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/6eEz754j8yLZkBHs0rDYncK6C9USCmW761FhA67hPpY%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1488764"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/xRWHjfezxRYadqVWMp%2F11IJEF3%2BalOKZ2lozMw0AP0I%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1487771"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/znmkTJlD25IshOEeMHKbJMDATKxt6dHxSh9F9ya0lkQ%3D" />
-                    </a>
-                </div>
-
-                <div className="badge">
-                    <a className="badge-image"
-                        href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1477210"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
-                            src="https://cdn.qwiklabs.com/UZLH%2F8n0ULT4OYJPQtS7VD3jfhrtOneTgbB6P5BNrUM%3D" />
-                    </a>
-                </div> 
-            </div>
+ 
 
             <div className="reveal">
                 <div className="hackerank">

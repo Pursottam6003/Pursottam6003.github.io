@@ -1,10 +1,10 @@
 import React from 'react'
 import LinkIcon from '../images/link.svg'
-import Hackerrank from '../images/hackerank.svg'
-import gfg from '../images/gfg.svg'
-import leetcode from '../images/leetcode.svg'
-import codechef from '../images/codechef.svg'
-import { height } from '@mui/system'
+import Hackerrank from '../images/coding/hackerank.svg'
+import gfg from '../images/coding/gfg.svg'
+import leetcode from '../images/coding/leetcode.svg'
+import codechef from '../images/coding/codechef.svg'
+import codingIcon from '../images/coding/codingIcon.svg'
 
 const Coding =({companyName,logosrc,userName,desc})=>{
     return (
@@ -26,17 +26,17 @@ const Coding =({companyName,logosrc,userName,desc})=>{
 const CodingProfile = () => {
 
     const MyCoding = [
-        {companyName:"LeetCode", logosrc:leetcode,userName:"https://www.leetcode.com/rahulsah6003/",desc:"380+ Problems"},
-        {companyName:"GeeksForGeeks", logosrc:gfg,userName:"https://auth.geeksforgeeks.org/user/rahulsah6003",desc:"400+ Problems 4th in College"},
+        {companyName:"LeetCode", logosrc:leetcode,userName:"https://www.leetcode.com/rahulsah6003/",desc:"580+ Problems"},
+        {companyName:"GeeksForGeeks", logosrc:gfg,userName:"https://auth.geeksforgeeks.org/user/rahulsah6003",desc:"500+ Problems 4th in College"},
         {companyName:"HackerRank", logosrc:Hackerrank,userName:"",desc:"300+ Problems"},
         {companyName:"CodeChef", logosrc:codechef,userName:"https://www.codechef.com/users/rahulsah6003",desc:"150+ Problems"},
-        {companyName:"CodeForces", logosrc:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png",userName:"https://codeforces.com/profile/pursottam",desc:"80+ Problems"},
+        {companyName:"CodeForces", logosrc:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png",userName:"https://codeforces.com/profile/pursottam",desc:"100+ Problems"},
     ]
   return (
     <>
         <div>
         <h1 style={{display:"flex",justifyContent:"center",fontFamily:"monospace"}} >Coding Profiles 
-        🎯
+        <img src={codingIcon} width={30} ></img>
         </h1>
             <div className="CodingProfile reveal">
                 {MyCoding.map(val =>{

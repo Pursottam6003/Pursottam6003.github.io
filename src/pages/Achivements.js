@@ -6,7 +6,7 @@ import Addovedi from '../images/addovedi.jpeg'
 import IdeaPitching from '../images/startup.jpg'
 import Designothon from '../images/designathon.jpg'
 import Iocl from '../images/iocl_office.jpg'
-
+import achievmentIcon from '../images/achievements/achievementIcon.svg'
 
 const FlipCard =({frontTitle,desc1,desc2,desc3,imgSrc})=>{
     return (
@@ -41,7 +41,7 @@ export const Achivements = () => {
    <>
  <div className="Achievement">
     <h2>Achievements and Certifications</h2>
-    <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/100/000000/external-achievements-recruitment-agency-flaticons-flat-flat-icons.png" alt="trophy_achievements" />
+    <img src={achievmentIcon} alt="trophy_achievements" />
     <div className="achiementsList">
         {AchivementList.map(val=>{
            return <FlipCard key={val.desc1} {...val}/>

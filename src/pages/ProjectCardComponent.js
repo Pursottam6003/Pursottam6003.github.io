@@ -5,14 +5,14 @@ import {CardMedia, CardContent, CardActions, Collapse, IconButton, Typography, C
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LinkIcon from '@mui/icons-material/Link';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
-import Airavat from '../images/airavat.jpg'
-import Atulyam from '../images/atulyam.png'
-import BakewithLove from '../images/bakeWithLove.jpg'
-import HousePricePrediction from '../images/housePricePrediction.webp'
-import IoclTracker from '../images/iocl.jpeg'
-import SmartNaka from '../images/apsn.jpeg'
-import Technodaya from '../images/technodaya.jpg'
+import chatAnalyzer from '../images/projects/chat_analyzer.jpg'
+import Airavat from '../images/projects/airavat.jpg'
+import Atulyam from '../images/projects/atulyam.png'
+import BakewithLove from '../images/projects/bakeWithLove.jpg'
+import HousePricePrediction from '../images/projects/housePricePrediction.webp'
+import IoclTracker from '../images/projects/iocl.jpeg'
+import SmartNaka from '../images/projects/apsn.jpeg'
+import Technodaya from '../images/projects/technodaya.jpg'
  
 
 
@@ -94,8 +94,9 @@ const MyCardComponent = ({ projectTitle, imgsrc,period, shortDesc, codeSrc, demo
   )
 }
 
-export default function CardComponent() {
+export default function ProjectCardComponent() {
   const projectDetails = [
+    { projectTitle: 'Chat_Analyzer', imgsrc: chatAnalyzer,period:'July 2023 - Aug 2023', shortDesc: 'Ultimate companion in unraveling the secrets of online chating', codeSrc: 'https://github.com/Pursottam6003/chat_analyzer', demoSrc: 'chat-analyzer-mdjk.onrender.com/', para1: ' A web application that enables users to analyze chat conversations to extract valuable insights', para2: ' Helps to understand user behavior and identify patterns. It processes the data to give visual insights of analysis.' },
     { projectTitle: 'Atulyam 23', imgsrc: Atulyam,period:'April 2023 - May 2023', shortDesc: 'Cultural fest Website for NIT AP ', codeSrc: 'http://github.com/tripathics/atulyam-2023', demoSrc: 'https://atulyam23.com', para1: 'Contributed the cultural fest Website for NIT AP', para2: ' ReactJs is used in the frontend and Firebase is used at the backend for registered users information.' },
     { projectTitle: 'IOCL Tracker', imgsrc: IoclTracker,period:'Dec 2022 - Jan 2023', shortDesc: 'MERN application:  Vehicle Tracking and Management System ', codeSrc: 'https://github.com/tripathics/iocl-tracker', demoSrc: 'https://github.com/tripathics/iocl-tracker', para1: 'ReactJs is used in the frontend and we styled the whole frontend by the help of Material UI (MUi)', para2: 'ExpressJs, NodeJs and MongoDB  with JWT authentication  in the backend.' },
     { projectTitle: 'Ethos: Smart-Naka', imgsrc: SmartNaka,period:'Dec 2022 - Jan 2023',  shortDesc: 'A react Native application which helps Assam Police to catch thiefts at Naka', codeSrc: 'https://github.com/Pursottam6003/smart-naka', demoSrc: '#', para1: 'We developed this application during the Ethos The coding contest at IIT Guwahati', para2: 'React Native used with the help of React Native paper and we trained our model using YOLO V3' },

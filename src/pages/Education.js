@@ -1,7 +1,8 @@
 import React from 'react'
-import nitap from '../images/nitap.png'
-import ghss from '../images/ghss.png'
+import nitap from '../images/education/nitap.png'
+import ghss from '../images/education/ghss.png'
 import LinkIcon from '../images/link.svg'
+import educationIcon from '../images/education/education.svg'
 
 
 const EducationSection=({InstName,InstSrc,Imgsrc,course,date,marks,isCompleted})=>{
@@ -35,7 +36,7 @@ const EducationSection=({InstName,InstSrc,Imgsrc,course,date,marks,isCompleted})
 const Education = () => {
 
   const EducationDetails  = [
-    {InstName:"National Institue of Technology Arunachal Pradesh",InstSrc:"http://nitap.ac.in/",Imgsrc:nitap,course:"B Tech in  Computer science and Engineering",date:"2020 - 24",marks:"8.85(Upto 5th Semester)",isCompleted:false,},
+    {InstName:"National Institue of Technology Arunachal Pradesh",InstSrc:"http://nitap.ac.in/",Imgsrc:nitap,course:"B Tech in  Computer science and Engineering",date:"2020 - 24",marks:"8.73(Upto 6th Semester)",isCompleted:false,},
     {InstName:"Govt. Higher Sec. School Roing, Arunachal Pradesh",InstSrc:"http://www.ghssroing.in/",Imgsrc:ghss,course:"Class 12 Science (PCMB) CBSE",date:"2018 - 20",marks:"Overall 84.8%",isCompleted:true,},
     {InstName:"Govt. Higher Sec. School Roing, Arunachal Pradesh",InstSrc:"http://www.ghssroing.in/",Imgsrc:ghss,course:"Class 10  CBSE",date:"2016 - 18",marks:"Overall 89.4%",isCompleted:true,},
   ]
@@ -44,7 +45,7 @@ const Education = () => {
     <div className='EducationSection'>
 
       <div className='Educationheading'>
-        <img  alt="education" src="https://img.icons8.com/external-vectorslab-flat-vectorslab/53/null/external-degree-education-vectorslab-flat-vectorslab.png"/>
+        <img  alt="education" src={educationIcon}/>
         <h2>Education</h2> 
       </div>
  

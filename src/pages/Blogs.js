@@ -7,6 +7,7 @@ import programming from '../images/programming.jpg'
 import Internships from '../images/internships.jpg'
 
 import {BlogComponenent} from './BlogComponent';
+import blogIcon from '../images/blogs/blogIcon.svg'
 
 export const Blogs = () => {
 
@@ -19,7 +20,7 @@ export const Blogs = () => {
   return (
     <>
     <div className="Blogheading reveal" id="blog">
-        <img src="https://img.icons8.com/fluency/80/000000/blog.png" alt="blogsicon" />
+        <img src={blogIcon} width={40} alt="blogsicon" />
         <h2 className="HowerMe ">Most Recent Blogs</h2>
     </div>
     
@@ -27,10 +28,6 @@ export const Blogs = () => {
     {BlogsContent.map(val =>{
         return <BlogComponenent key={val.date} {...val} />
     })}
-    </div>
-
-    <div className='viewBlogs'>
-                View More
     </div>
     </>
   )

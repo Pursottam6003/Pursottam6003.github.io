@@ -3,6 +3,8 @@
     --black: #010110;
     --blue: rgb(63, 63, 177);
     --pink: rgb(224, 59, 59);
+    --gray: rgb(128, 128, 128);
+
 }
 body * {
     box-sizing: border-box;
@@ -543,7 +545,6 @@ ul li {
 .Projtitle
 {
   font-weight: bold;
-  color: rgb(207, 4, 207);
   font-size: large;
   padding: 5px;
 }
@@ -754,7 +755,7 @@ ul li {
 
 .flip-card-front {
   padding-top: 20px;
-  background-color: rgb(235, 216, 13);
+  background-color:var(--gray);
   color: black;
   border-radius: 0.7rem;
 }
