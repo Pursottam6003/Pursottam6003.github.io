@@ -6,7 +6,11 @@
     --pink: rgb(224, 59, 59);
     --gray: rgb(128, 128, 128);
 }
- 
+
+body {
+    margin: 0px;
+}
+
 body * {
     box-sizing: border-box;
 }
@@ -1633,10 +1637,10 @@ footer a {
         float: left;
         margin-left: 0px;
     }
-    .css-1ex1afd-MuiTableCell-root
+    /* .css-1ex1afd-MuiTableCell-root
     {
         display: table-cell !important;
-    }
+    } */
     .description {
         margin-left: 0px;
     }
@@ -2068,10 +2072,10 @@ footer a {
     font-size: 1rem !important;
     font-family:cursive !important;
 }
-.css-1ex1afd-MuiTableCell-root
+/* .css-1ex1afd-MuiTableCell-root
 {
     display: inline-flex !important;
-}
+} */
 .skills span
 {
     display: flex;

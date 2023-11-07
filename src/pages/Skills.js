@@ -38,7 +38,7 @@ export const Skills = () =>{
     <div className='skillsRotator'>
         <img src={gear} style={{width:'50px'}} alt="gear" className="gear"></img>
     </div>
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} style={{ maxWidth: 1000, margin: "auto" }}>
       <Table sx={{ minWidth: 350 }} aria-label="simple table">
         
         <TableBody>
@@ -48,7 +48,11 @@ export const Skills = () =>{
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" className='skillCategory' scope="row">{row.name}</TableCell>
-              <TableCell component="th" className='skills' scope="row">{row.icons}</TableCell>
+              <TableCell component="th" className='skills' scope="row">
+              <div style={{display:'flex', gap: "1.2rem", flexWrap:'wrap', justifyContent:'flex-start'}}>
+                {row.icons}
+              </div>
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
