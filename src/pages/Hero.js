@@ -4,7 +4,7 @@ import Namaste from '../images/namaste.webp'
 import Facebook from '../images/facebook.svg'
 import Instagram from '../images/instagram.svg'
 import FullImage from '../images/hero/pursottam.jpg'
-import Profile from '../images/hero/pursottam_sah.jpeg'
+import Profile from '../images/hero/pursottam_sah.jpeg.jpg'
 import about from '../images/hero/icons/about.svg'
 import homeIcon from '../images/hero/icons/home.svg'
 import blogIcon from '../images/blogs/blogIcon.svg'
@@ -123,17 +123,20 @@ export const Hero = () => {
             <p className="first">HI THERE 👋</p>
             <h2 className="name">I'AM <span id="myname">PURSOTTAM SAH</span></h2>
             <div className="detailsinfo">
-                <p><strong>I am a</strong> B Tech final-Year <strong>Computer Science UG Student</strong> from <strong><a 
-                    href="http://nitap.ac.in/" target="_blank" rel="noopener noreferrer">NIT Arunachal Pradesh</a></strong>  and a <strong>Full Stack Web Developer</strong> with a passion for <strong>UI/UX Design</strong> and <strong>Open Source</strong>.
-                </p>
-                <p>
-                    I am a <strong>self-taught</strong> programmer who enjoys learning new things and solving problems. I am a <strong>quick learner</strong> who is always eager to learn new technologies and frameworks. I am a <strong>team player</strong> who enjoys working with others to solve problems and build new things.
-                </p>
+            <p>
+                I had  <strong>overrided</strong> my 'Experience' <strong>class</strong> in the journey of life to become a Software Engineer, <strong>inheriting</strong> the foundation of my B.Tech education in Computer Science from 
+                <strong><a target='_blank' href='http://nitap.ac.in'> NIT Arunachal Pradesh</a>  </strong>.
+             
+                Currently, I am a SWE-1 at <strong>Ultimate Kronos Group (UKG)</strong> with a proficiency in Unified Engineering(Frontend, Backend, DevOps, Testing) with a passion for <strong>UI/UX Design</strong> and <strong>Open Source</strong>.
+            </p>
+            <p>
+                A <strong>self-taught</strong> programmer with a passion for learning new things and solving problems. Known for being a <strong>quick learner</strong>, always eager to explore new technologies and frameworks. A <strong>team player</strong> who enjoys collaborating with others to solve problems and build new projects.
+            </p>
 
                 <div className='buttons'>
                     <a href="#myprojects"><button id="mycv">My Projects</button></a>
                     <a href="#about" className="scrollDown"></a>
-                    <a href={'https://drive.google.com/file/d/1azNpifF8w9lEFreDsvKu1d3CFehYo2-_/view'} target="_blank" rel="noopener noreferrer">
+                    <a href={'https://drive.google.com/file/d/15S-QG_JDIOgPkzXi-g-chQyHrCQQO3nW/view?usp=sharing'} target="_blank" rel="noopener noreferrer">
                         <button id="resume">Resume</button>
                     </a>
                 </div>
@@ -150,13 +153,13 @@ export const Hero = () => {
     <article className="reveal">
         <p>
             Hello! My name is <strong>Pursottam Sah</strong> and I am from <strong>Assam, India.</strong>I am a
-            Computer Science Undergraduate student at <strong>NIT Arunachal Pradesh, </strong>graduating in 2024.
+            Computer Science Graduated student from <strong>NIT Arunachal Pradesh</strong>
         </p>
         <p>
             I am a <strong>self-taught</strong> programmer who enjoys learning new things and solving problems. I am a <strong>quick learner</strong> who is always eager to learn new technologies and frameworks. I am a <strong>team player</strong> who enjoys working with others to solve problems and build new things.
         </p>
      
-        <p>I had an incredible experience of open source development thourgh Google Summer of Code 2023 and Girlscript Summer of Code 2023 I got the exposure how to work in a team and how to build a project collaboratively i have even exposure of software development while working on indian oil as a software developer engineer intern </p>
+        <p>I had an incredible experience of open source development thourgh Google Summer of Code 2023 and Girlscript Summer of Code 2023 I got the exposure how to work in a team and how to build a project collaboratively i have even exposure of full stack django development while working at Ai4Bharat IIT Madras </p>
                 
        </article>
        <br />

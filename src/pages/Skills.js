@@ -20,12 +20,13 @@ function createData(name, icons) {
   
   const rows = [
     // createData(`CS Fundamentals`, {id: 'bash', name: 'Bash'}, 'Data Structures', 'Algorithms','OOPs', 'DBMS', 'Computer Networking','Operating Systems'),
-    createData('Programming Languages', [{id: 'cpp', name: 'C/C++'}, {id: 'python', name: 'Python'} , {id: 'java', name: 'Java'}, {id: 'javascript', name: 'JavaScript'}, {id: 'cpp', name: 'SQL'}]),
+    createData('Programming Languages', [{id: 'cpp', name: 'C/C++'}, {id: 'python', name: 'Python'} , {id: 'java', name: 'Java'}, {id: 'javascript', name: 'JavaScript'}, {id: 'cpp', name: 'SQL'}, {id:'postgres', name:'PostgreSQL'}]),
     createData('Web Development', [{ id: 'html', name:'HTML/CSS'}, {id:'javascript', name:'Javascript'}, {id:'nodejs', name:'NodeJS'}, {id:'react',name:'ReactJs'}]),
     createData('Frameworks', [{id:'flask', name:'Flask'}, {id:'expressjs', name:'ExpressJS'}, {id:'react', name:'ReactJS'}, {id:'nodejs', name:'NodeJS'}, {id:'bootstrap', name:'Bootstrap'}, {id:'materialui', name:'Material UI'}]),
-    createData('Databases', [{id:'mysql', name:'MySQL'}, {id:'mongodb', name:'MongoDB'}, {id:'firebase', name:'Firebase'}, {id:'aws', name:'AWS (Basics)'}]),
+    createData('Databases', [{id:'mysql', name:'MySQL'}, {id:'mongodb', name:'MongoDB'}, {id:'firebase', name:'Firebase'}, {id:'aws', name:'AWS (Basics)'}, {id: 'rightscale', name: 'RightScale'}]),
     createData('Machine Learning', [{id:'python', name:'Python'}, {id:'pandas', name:'Pandas'}, {id:'numpy', name:'Numpy'}, {id:'tensorflow', name:'Tensorflow'}]),
-    createData('Version Control', [{id:'git', name:'Git'}, {id:'github', name:'GitHub'}, {id:'gitlab', name:'GitLab'}]), 
+    createData('Tools', [{id:'dbviewer', name:'Dbviewer'}, {id:'datadog', name: 'DataDog'}, {id:'splunk', name:'Splunk'}, {id:'postman', name:'Postman'}, {id:'jira', name:'One Jira'}, {id:'jenkins',name:'Jenkins' },{id:'mobaxterm', name:'MobaXterm'}]),
+    createData('Version Control', [{id:'git', name:'Git'}, {id:'github', name:'GitHub'}, {id:'bitbucket', name:'BitBucket'}, {id:'gitlab', name:'GitLab'}]), 
   ];
 
 export const Skills = () =>{

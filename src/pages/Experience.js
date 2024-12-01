@@ -29,7 +29,10 @@ const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLin
 export const Experience = () => {
 
     const Experiences =[
-        {companyName:'Google Developers Students Club',InternshipPosition:'Open Source Lead',desc:"Helping and teaching student to dive into open source",date:'Aug 2023 - Present',companySrc:'https://developers.google.com/community/gdsc',pdfLink:''},
+        {companyName:'Ultimate Kronos Group (UKG)',InternshipPosition:'Software Engineer',desc:"Started my corporate carrer as a Software Engineer",date:'Aug 2024 - Present',companySrc:'https://www.ukg.com',pdfLink:''},
+        {companyName:'Ai4Bharat',InternshipPosition:'Full Stack Developer',desc:"Wonderful oppertunity to work as a Full Stack Django Developer",date:'March 2024 - June 2024',companySrc:'https://ai4bharat.org',pdfLink:''},
+        {companyName:'Uniflik',InternshipPosition:'Frontend Developer',desc:"Worked closely IIT-B alumnus startup one of the best social app for foreign aspirants",date:'Jan 2024 - March 2024',companySrc:'https://uniflik.com',pdfLink:''},
+        {companyName:'Google Developers Students Club',InternshipPosition:'Open Source Lead',desc:"Helping and teaching student to dive into open source",date:'Aug 2023 - Jan 2024',companySrc:'https://developers.google.com/community/gdsc',pdfLink:''},
         {companyName:'Girlscript Summer of Code',InternshipPosition:'Open Source Contributor',desc:"Attained the overall global rank of 532/ 15000+ contributors and expertise in industry-standard best practice",date:'May 2023 - Aug 2023',companySrc:'https://gssoc.girlscript.tech/',pdfLink:''},
         {companyName:'Indian Oil Corp. Limited',InternshipPosition:'SDE Internship',desc:"Completed the IOCL Vehicle Tracking and Management and Created the light weight web app using react.Js",date:'Dec 2022 - Jan 2023',companySrc:'https://iocl.com/',pdfLink:iocl},
         {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Worked on the project of the company ‘DoBuizz’ ",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:Rebert},

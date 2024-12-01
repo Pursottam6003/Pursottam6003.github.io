@@ -36,7 +36,7 @@ const EducationSection=({InstName,InstSrc,Imgsrc,course,date,marks,isCompleted})
 const Education = () => {
 
   const EducationDetails  = [
-    {InstName:"National Institue of Technology Arunachal Pradesh",InstSrc:"http://nitap.ac.in/",Imgsrc:nitap,course:"B Tech in  Computer science and Engineering",date:"2020 - 24",marks:"8.73(Upto 6th Semester)",isCompleted:false,},
+    {InstName:"National Institue of Technology Arunachal Pradesh",InstSrc:"http://nitap.ac.in/",Imgsrc:nitap,course:"B Tech in  Computer science and Engineering",date:"2020 - 24",marks:"8.78(Final CGPA 8th Semester)",isCompleted:true,},
     {InstName:"Govt. Higher Sec. School Roing, Arunachal Pradesh",InstSrc:"http://www.ghssroing.in/",Imgsrc:ghss,course:"Class 12 Science (PCMB) CBSE",date:"2018 - 20",marks:"Overall 84.8%",isCompleted:true,},
     {InstName:"Govt. Higher Sec. School Roing, Arunachal Pradesh",InstSrc:"http://www.ghssroing.in/",Imgsrc:ghss,course:"Class 10  CBSE",date:"2016 - 18",marks:"Overall 89.4%",isCompleted:true,},
   ]
